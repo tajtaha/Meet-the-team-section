@@ -244,10 +244,54 @@
       }
 
       @media screen and (max-width: 412px) {
+        html,
+        body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
         .main-window {
-          height: 90vh;
+          width: 70%; 
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: stretch;
+          border-radius: 15px; /* keep corners visible */
+          padding: 10px;
+          margin: 10px auto; /* center the window horizontally */
+        }
+
+        .text-section {
           width: 100%;
-          border-radius: 0;
+        }
+
+        .image-grid {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin: 0;
+        }
+
+        .description {
+          position: static;
+          margin: 10px 20px;
+        }
+
+        .image-container {
+          width: 100%;
+          height: 350px;
+        }
+
+        .gradient-image {
+          height: 50%;
+        }
+
+        .image-container-5 {
+          border-bottom-right-radius: 0;
+        }
+
+        .gradient-image-1 {
+          border-bottom-right-radius: 0;
         }
       }
     </style>

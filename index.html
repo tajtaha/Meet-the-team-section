@@ -303,6 +303,13 @@
           border-radius: 0 !important;
         }
       }
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .main-window {
+          background-image: url('resources/Background_decor@2x.webp');
+        }
+      }
+      
     </style>
   </head>
   <body>
@@ -328,11 +335,13 @@
           <div class="image-container image-container-1">
             <img
               src="resources/person_1.webp"
+              srcset="resources/person_1.webp 1x, resources/person_1@2x.webp 2x"
               alt="a handsome man hanging his coat with his finger"
               class="person-image"
             />
             <img
               src="resources/Gradient.svg"
+              srcset="resources/Gradient.svg 1x, resources/Gradient@2x.webp 2x"
               alt="Gradient Image"
               class="gradient-image"
             />
@@ -343,11 +352,13 @@
           <div class="image-container image-container-2">
             <img
               src="resources/person_2.webp"
+              srcset="resources/person_2.webp 1x, resources/person_2@2x.webp 2x"
               alt="a pretty woman who is laughing"
               class="person-image"
             />
             <img
               src="resources/Gradient.svg"
+              srcset="resources/Gradient.svg 1x, resources/Gradient@2x.webp 2x"
               alt="Gradient Image"
               class="gradient-image"
             />
@@ -358,11 +369,13 @@
           <div class="image-container image-container-3">
             <img
               src="resources/person_3.webp"
+              srcset="resources/person_3.webp 1x, resources/person_3@2x.webp 2x"
               alt="a hopeful man who is looking at the horizon"
               class="person-image"
             />
             <img
               src="resources/Gradient.svg"
+              srcset="resources/Gradient.svg 1x, resources/Gradient@2x.webp 2x"
               alt="Gradient Image"
               class="gradient-image"
             />
@@ -373,11 +386,13 @@
           <div class="image-container image-container-4">
             <img
               src="resources/person_4.webp"
+              srcset="resources/person_4.webp 1x, resources/person_4@2x.webp 2x"
               alt="a happy and ambitious woman"
               class="person-image"
             />
             <img
               src="resources/Gradient.svg"
+              srcset="resources/Gradient.svg 1x, resources/Gradient@2x.webp 2x"
               alt="Gradient Image"
               class="gradient-image"
             />
@@ -388,6 +403,7 @@
           <div class="image-container image-container-5">
             <img
               src="resources/person_5.webp"
+              srcset="resources/person_5.webp 1x, resources/person_5@2x.webp 2x"
               alt="a cool man with carisma"
               class="person-image"
             />
